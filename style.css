@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.top-btn{
+  
+    background-color: rgb(65, 59, 59);
+   
+}
+.btn-img{ 
+    opacity: 0.5;
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+    width: 50px;
+}
+
+     /* header */
+          
+
+.social-links{ 
+    width: 40px; 
+    padding-left: 5px;  
+}
+
+.links{margin-left: 300px;}
+
+.m-heading{
+    line-height: 30px;
+}
+
+.btn-font{
+    font-size: small;
+    color: gray;
+    padding: 5px;
+}   
+         /* header end */
+
+          /* nav bar start*/
+   
+          
+.sal-logo{
+    width: 200px;
+   margin-left: 50px;
+}
+
+.active-btn{
+ border-radius: 20px;
+
+}
+
+.drop-btn{
+    border-radius: 20px;
+    color: black;
+}
+
+.drop-btn:focus{
+    color: white;
+    background-color: rgb(0, 119, 255);
+}
+
+
+.drop-btn:hover{
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(0, 119, 255);
+}
+
+.dropdown-item:hover{
+    background-color:rgb(0, 119, 255) ;
+    color: white;
+}
+       /* nav bar end */
+
+
+
+       /* paragraph container start */
+
+.callcorona{
+    width: 100%;
+}       
+
+.dtail-line{
+   margin: 0px 230px;
+}
+
+.logo{
+    width: 50px;
+  
+}   
+        /* paragraph container end */
+
+
+        /* boxes start */
+     
+
+.box-heading{
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .box{
+  
+    background-color: white;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 70px;
+    box-shadow: 5px 5px 10px 5px rgb(212, 209, 209);
+  }
+
+  .object{
+    background-color:whitesmoke;
+    height: 700px;
+    width: 100%;
+    text-align: center;
+  }
+  .bg-smoke{
+      background-color: whitesmoke;
+      height: 650px;
+  }  
+
+  .col col-lg-6 col-md-6 col-sm-12{display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;}
+
+ .firstcol{ display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;}
+.secondcol{ display:flex;
+                flex-direction: row;
+                justify-content: space-between;
+                flex-wrap: wrap;}
+  .box-align{
+     margin-left: 200px;
+  }    
+       /* boxes end */
+
+
+       /* updates start */
+.updates-box{
+    text-align: center;
+     padding: 10px ;
+     font-weight: bolder;
+      color: rgb(0, 119, 255)  ; 
+      background-color: rgba(163, 162, 162, 0.479);
+}
+.updates-heading{
+    font-family: serif;
+    font-weight: bolder;
+}
+
+       /* updates end */
+
+
+       /* gallery start */
+.gallery-heading{
+    margin-top: 100px;
+}
+.img-width{
+    width: 250px;
+    padding: 0px;
+}
+
+        /* gallery end */
+
+
+        /* footer start */
+
+
+.ul-1 li{
+    list-style-image: url(images/call-icon.png);
+}
+
+.ul-2 li{
+    list-style-image: url(images/mail.png);
+}
+
+.ul-3 li{
+    list-style-image: url(images/globe.png);
+}
+
+        /* footer start */
